@@ -1,0 +1,6 @@
+<!--pages/web/web.wxml-->
+
+<!-- <text>@@@@@{{accessToken}}@@@@@@@</text> -->
+
+
+<web-view src="http://m.dev.nowcheck.cn/#/index?phoneNumber={{phoneNumber}}&accessToken={{accessToken}}" bindload="bindload" binderror="binderror"></web-view>
